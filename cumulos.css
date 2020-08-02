@@ -1,0 +1,75 @@
+h1{
+   font-family: Kunstler Script;
+   color: white;
+   font-size: 50px;
+   text-align: center;
+   box-shadow: 6px 6px 6px black;
+   width: 1600px;
+   height: 65px;
+   Monotype Corsiva
+}
+
+p{
+	  color: white;
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+	  text-align: justify;
+    border: silver 70px solid;
+    border-image-source: url("imagenes/gotico.png");
+    border-image-slice: 75;
+}
+
+body{
+	 background-image: url("imagenes/2000.jpg");
+}
+
+html{
+	background-color:black;
+}
+
+a{
+   color: white;
+   font-size: 17px;
+   padding: 3px 10px;
+   border: PowderBlue 5px solid;
+   border-radius: 20px;
+   border-color: skyblue;
+   box-shadow: 6px 6px 6px skyblue;
+   width: 40%;
+   border: skyblue 3px solid;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+a:active{
+  background:skyblue;
+}
+
+img{
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white black;
+    box-shadow: 6px 6px 6px black;/*para sombreado*/
+    border: silver 70px solid;
+    border-image-source: url("imagenes/gotico.png");/*se le esta poniendo un marco a la imagen*/
+    border-image-slice: 75;
+    /*border-radius: 50%; el 50% le da una forma circular a la imagen*/
+}
+
+iframe{
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white black;
+    box-shadow: 6px 6px 6px black;
+    border: silver 70px solid;
+    border-image-source: url("imagenes/gotico.png");
+    border-image-slice: 75;
+}

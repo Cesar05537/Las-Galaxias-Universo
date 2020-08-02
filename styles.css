@@ -1,0 +1,123 @@
+body{
+    
+    background-image: url("imagenes/estelar.jpg");
+}   
+
+.form{
+     opacity: 0.5; /*para que cualquier cosa se vea transparente*/
+     background-color: black;
+     position: center;
+	 width: 600px;
+	 height: 855px;
+	 padding-left: 20px;
+	 padding-top: 30px;
+     border-radius:50px;
+     margin:auto;
+     padding: 3px 10px;
+     border: PowderBlue 5px solid;
+     border-radius: 20px;
+     border-color: silver;
+     box-shadow: 6px 6px 6px 6px black; /*para el sombreado*/
+
+}
+
+
+input[type=text],[type=email],[type=tel]{
+    width: 400px;
+    height:33px;
+    font-size: 18px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: black;
+    border: black 3px solid;
+    box-shadow: 6px 6px 6px black;
+}
+
+ input[type=Num]{
+ 	width: 50px;
+    height:33px;
+    font-size: 15px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: black;
+    border: black 3px solid;
+    box-shadow: 6px 6px 6px black;
+}
+
+input[type=submit]{
+
+	position:relative; /*para que su posicion sea relativa puede 
+                        tambien puede ser izquierda:left o derecha:right*/
+	width:120px;
+	height:40px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border:0px;
+    background-color:skyblue;
+    font-family:century;
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+input[type=reset]{
+
+	position:relative;
+	width:120px;
+	height:40px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border:0px;
+    background-color:gray;
+    font-family: century;
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+p{
+	text-shadow: 0 1px 0 #fff;
+	font-size: 24px;
+}
+
+label{
+	 margin: 11px 20px 0 0;
+	 font-size: 25px;
+	 color:white;
+	 font-family:Tempus Sans ITC;
+}
+
+
+h1{  
+    font-family:Vivaldi;
+    font-size:40px;
+    color: black;
+    background-color: white;
+    width:580px;
+    height: 55px;
+    box-shadow: 6px 6px 6px black;
+    position: center;
+}
+
+a{
+  color:skyblue;
+  font-size:17px;
+  padding: 3px 10px;
+  border: PowderBlue 5px solid;
+  border-radius: 19px;
+  border-color: skyblue;
+  text-decoration: none;
+  box-shadow: 6px 6px 6px black;/*para hacer un sombreado*/
+}
+
+a:hover{
+    color:white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+a:active{
+    background:skyblue;
+}
+
+p{
+   font-family:century;
+   font-size:15px;
+   color: black;
+}

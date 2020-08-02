@@ -1,0 +1,67 @@
+h1{
+   color: black;
+   font-size: 20px;
+   text-align: center;
+   font-family: Papyrus;
+   background-color: white;
+   width: 100%;
+   height: 50px;
+}
+
+p{
+	  color: white;
+	  font-family: Papyrus;
+	  font-size: 18Px;
+    text-align: justify;
+    padding: 3px 10px;
+    border: silver 30px solid;
+    border-image-source: url("imagenes/marco.png");
+    border-image-slice: 75;
+    text-shadow: 2px 2px 4px black;
+}
+
+body{
+      background-image: url("imagenes/espiralgalax.jpg");
+}
+
+html{
+      background-color: black;
+}
+
+a{
+   color:white;
+   font-size:17px;
+   padding: 3px 10px;
+   border: PowderBlue 5px solid;
+   border-radius: 20px;
+   border-color: skyblue;
+   box-shadow: 6px 6px 6px white;
+   width: 40%;
+   border: white 3px solid;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+a:active{
+  background:skyblue;
+}
+
+img{
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white black;
+}
+
+iframe{
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white black;
+}

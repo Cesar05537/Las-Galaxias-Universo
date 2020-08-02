@@ -1,0 +1,274 @@
+*{ /*para resturar todo desde 0*/
+	margin:0px;
+    padding:0px; 
+}
+
+body{
+	/*background: silver;*/
+	background-image: url("imagenes/universe1.png");
+}
+
+#contenedor{
+	width: 1190px;
+	margin-left:50px;/*margen de la izquierda:se acomodo con el width del #contenedor de abajo para acomodar el texto*/
+    margin-right: auto;/*derecha*/
+    margin-bottom:auto;
+    margin-top: auto;
+
+    /*margin-top: 20px;
+	margin-right: 10px;/*margen derecho*/
+	/*margin-left: 20px; /*margen izquierdo*/
+	/*margin-bottom: 10px;*/
+	/*margin-left: 20px;
+	margin-right: 10px;
+	margin-top:10px;
+	margin-bottom: 10px;*/
+}
+
+/*------------------------------------------------------------------*/
+header{
+	width: 1582px;
+	height: 125px;
+    /*background: black;*/
+	background-image: url("imagenes/universe1.png");
+}
+
+header div h1{
+
+	text-shadow: 10px 10px 10px black;
+	position:center; /*para posicionar el div en el centro*/
+	top:-80px;
+	left: 250px;
+	/*margin:auto;*/
+	color:white; /*color de la letra*/
+	width: 800px;/*ancho contendor*/
+	height:100px;/*alto contenedor*/
+	font-size:45px;/*tamaño letra*/
+	font-family:Papyrus;
+	
+	/*tipo de letra*/
+	/*text-align: center; /*aliniacion de texto*/
+	/*margin-left: 700px
+	/*line-height: 100px; le damos un alto igual al header inicial*/
+}
+
+/*header img{
+	position: relative;
+	top: 50px;
+	left: -450px;
+	width: 350px;/*ancho de la imagen
+}*/
+
+/*------------------------------------------------------------------*/
+
+nav{/*Estilos para el nav en generañ*/
+	background: white;
+	height: 50px;
+	width: 1580px;
+	/*clear: both; para*/
+}
+
+nav ul{
+	padding-top: 15px;/*es como el margen-separacion de arriba*/
+	padding-right: 130px; /*separacion*/
+	list-style: none;/*estilo de lista*/
+	text-align: center;/*para centrar los "li"*/
+}
+
+nav ul li a{
+	text-decoration: none;/*no tiene decoracion*/
+	color:black;/*color de letra*/
+	font-family: castellar;/*estilo de letra*/
+	font-size: 19px;/*tamaño de letra*/
+	width: 50%;
+    /*box-shadow: 7px 7px 7px black;*/
+    border: PowderBlue 5px solid;
+    border-radius: 25px;
+    border-color: black;
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a:hover{ /*para que al poner el cursor sobre 
+                   el lik este cambie de color*/
+	
+	/*text-decoration: underline;/*para que al poner el cursor encima de un enlace este tenga una linea*/
+	font-size: 22px;
+	box-shadow: 8px 8px 8px black;
+	text-decoration: block;
+}
+
+nav ul li a:active{/*para que al presionar el boton del navegador este cambie de color*/
+    background: silver;
+}
+
+/*nav ul li a:hover.link1{
+    background: gray;
+	text-decoration: underline;
+	font-size: 23px;
+
+}*/
+
+    /*text-shadow: 5px 5px 5px black;
+    border-top: black 3px solid;
+	border-bottom: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;*/
+
+nav.horizontal ul li{/*para distinguir de las barras horiz..y verti..*/
+	display: inline-block; /*se aplica a cada etiqueta LI para poner en vertical*/
+	padding-left:100px;/*para separar los textos li*/
+}
+
+/*-----------------------------------------------------------------*/
+
+#contenido{
+	position: center;
+	float: left;/*para que flote de la do izquierdo*/
+	width: 1050px;/*ancho:acomodo el texto de los parrafos para que este se viera parejo con el marggin left*/
+	height: 1020px;/*alto*/
+}
+
+#contenido h2{
+	font-size: 20px;/*tamaño de letra*/
+	text-align: center;
+	line-height: 70px;
+    font-family: Papyrus;/*tipo de letra*/
+    color :white;/*color del subtitulo Que Es Una Galaxia*/
+}
+
+#contenido h3{
+	font-size: 20px;/*tamaño de letra*/
+	text-align: center;
+	line-height: 70px;
+    font-family: Papyrus;/*tipo de letra*/
+    color :white;/*color del subtitulo Cumulos de Galaxias*/
+}
+
+#contenido h4{
+	font-size: 20px;/*tamaño de letra*/
+	text-align: center;
+	line-height: 70px;
+	font-family: Papyrus;/*tipo de letra*/
+	color :white;/*color del subtitulo Tipos de Galaxias*/
+}
+/*---------------------------------------------------------------------------------*/
+
+aside{
+	float: right;/*posisionando el aside a la derecha*/
+	width:80px;
+	height: auto;/*para que el aside se adapte de el texto*/	
+}
+
+aside p{
+	font-size: 20px;/*tamaño de letra*/
+	font-family:Papyrus;/*tipo de letra*/
+	text-align: justify;/*para dar al texto formato justificado*/
+}
+
+aside h5{
+	font-family:Papyrus;/*tipo de letra*/
+	font-size: 20px;/*tamaño de letra*/
+	text-align: center;
+	color:white;
+	/*padding: 3px 10px;
+    width:260px;
+    height:10px;
+    border: silver 25px solid;
+    border-image-source: url("imagenes/marco.png");
+    border-image-slice: 75;*/
+    width: 400%;
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 40px;
+    border-color: black;
+    box-shadow: 6px 6px 6px black;
+}
+/*----------------------------------------------------------------------------------*/
+
+
+h1{ 
+
+	text-shadow: 50% black;/*para sombreado del tema principal*/
+}
+	/*font-size:25px;/*tamaño de la letra*/
+	/*font-family:bookman olde style;/*tipo de letra*/
+    /*color :white;
+	text-align: center;
+} 
+
+/*p{  font-size:20px;/*tamaño de la letra
+	font-family: arial;/*tipo de letra
+    color :green;
+	text-align: justify;	
+}*/
+
+/*h2{ /*color del titulo*/
+	/*font-size:15px;/*tamaño de la letra*/
+	/*font-family: Papyrus;/*tipo de letra*/
+	/*color :white;
+}
+
+/*p{ color del titulo
+	font-size:16px;/*tamaño de la letra
+	font-family: arial;/*tipo de letra
+	color :red;
+	text-align: justify;
+}*/
+
+/*h3{/*color del titulo*/
+	/*font-size:15px;/*tamaño de la letra*/
+	/*font-family: Papyrus;/*tipo de letra*/
+	/*color :white;
+}*/
+
+p{/*color del titulo*/
+	font-size:20px;/*tamaño de la letra*/
+	font-family: bookman olde style;/*tipo de letra*/
+	color :white;
+	text-align: justify;
+
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 40px;
+    border-color: black;
+    box-shadow: 6px 6px 6px black;
+
+	/*padding: 3px 10px;
+    border: silver 50px solid;
+    border-image-source: url("imagenes/tete.png");
+    border-image-slice: 75;
+    text-shadow: 2px 2px 4px black;*/
+}
+
+/*h4{/*color del titulo*/
+	/*font-size:15px;/*tamaño de la letra*/
+	/*font-family: Papyrus;/*tipo de letra*/
+	/*color: white;
+}*/
+
+footer h6{
+	color:black;
+	font-size: 17px;
+	text-align: center;
+	padding: 10px;
+}
+
+footer{
+	background: white;
+	clear: both;	
+	width:1582px;
+	height:75px;
+}
+
+div.ContenedorGeneral{
+	width: 100%;
+	max-width:3000px; 
+	margin:auto;
+	overflow:hidden;
+}
+
+nav.horizontal{
+    width: 100%;
+}

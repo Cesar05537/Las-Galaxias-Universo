@@ -1,0 +1,169 @@
+h1{
+	color: white;
+	font-family: Kunstler Script; 
+	font-size: 70px;
+	text-align: center;
+	padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 6px 6px 6px black;
+    /*width: 50%;*/
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+h2{
+	color:white;
+	font-family: Freestyle Script;
+	font-size: 50px;
+	text-align:center;
+	padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 6px 6px 6px black;
+    /*width: 40%;*/
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+	color:white;
+	font-family: Freestyle Script;
+	font-size: 50px;
+	text-align:center;
+	padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 6px 6px 6px black;
+    /*width: 40%;*/
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+	color:white;
+	font-family: Freestyle Script;
+	font-size: 50px;
+	text-align:center;
+	padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 6px 6px 6px black;
+    /*width: 40%;*/
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5{
+	color:white;
+	font-family: Freestyle Script;
+	font-size: 50px;
+	text-align:center;
+	padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
+    border-color: white;
+    box-shadow: 6px 6px 6px black;
+    /*width: 40%;*/
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+	color: white;
+	font-family: times new roman;
+	font-size: 20px;
+	text-align: justify;
+    padding: 3px 10px;
+    border: PowderBlue 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 6px 6px 6px black;
+    /*width: 40%;
+    border: white 3px solid;
+    margin-left: auto;
+    margin-right: auto;*/
+    border: silver 70px solid;
+    border-image-source: url("imagenes/tete.png");
+    border-image-slice: 75;
+}
+
+body{
+	background-image: url("imagenes/morado.webp");
+}
+
+a{ 
+   color: skyblue;
+   font-size: 17px;
+   padding: 3px 10px;
+   border: PowderBlue 5px solid;
+   border-radius: 19px;
+   border-color: skyblue;
+   box-shadow: 6px 6px 6px skyblue;
+   width: 40%; /*abarcara todo desde el centro sin tener que usar el height:*/
+   border: skyblue 3px solid;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: none;  
+}
+
+a:hover{
+	 color:white;
+	 text-decoration: underline;
+	 font-size: 20px;
+}
+
+a:active{
+	background:skyblue;
+
+}
+
+img {
+    padding: 3px 10px;
+    border: PowderBlue 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 6px 6px 6px 6px black;
+    /*width: 40%;
+    border: white 3px solid;
+    margin-left: auto;
+    margin-right: auto;*/
+    border: silver 50px solid;
+    border-image-source: url("imagenes/tete.png");
+    border-image-slice: 75;
+}
+
+iframe{
+	padding: 3px 10px;
+    border: PowderBlue 5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 6px 6px 6px 6px black;
+	border: silver 50px solid;
+    border-image-source: url("imagenes/tete.png");
+    border-image-slice: 75;
+
+ }
+
+footer{
+	background: white;
+	clear: both;	
+	width:1600px;
+	height:75px;
+}
+
+footer h6{
+	color:black;
+	font-size: 17px;
+	text-align: center;
+	padding: 0px;
+}
